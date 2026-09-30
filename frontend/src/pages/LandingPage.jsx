@@ -266,7 +266,7 @@ export const LandingPage = ({ setActivePage }) => {
             Built With Core Technologies
           </h2>
           <p className="text-sm text-slate-600 dark:text-slate-400">
-            Transparent, reproducible, and viva-ready AI pipeline.
+            Transparent, reproducible, and explainable AI pipeline.
           </p>
         </div>
 
@@ -294,7 +294,7 @@ export const LandingPage = ({ setActivePage }) => {
             Ready to Screen Your Resume?
           </h2>
           <p className="text-blue-100 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
-            Upload your resume document or test the live demo profile to evaluate ATS compatibility, skill gaps, and custom job description matching.
+            Upload your resume document to evaluate ATS compatibility, skill gaps, and custom job description matching.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
             <button
@@ -307,7 +307,7 @@ export const LandingPage = ({ setActivePage }) => {
               onClick={() => setActivePage('about')}
               className="px-6 py-3.5 rounded-2xl bg-blue-700/60 hover:bg-blue-700 text-white font-semibold text-base border border-white/20 transition-colors"
             >
-              View Viva Documentation
+              View Project Architecture
             </button>
           </div>
         </div>

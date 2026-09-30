@@ -74,10 +74,9 @@ ai-resume-screening-job-recommendation-system/
 │   ├── app.py                          # Flask application entry point & factory
 │   ├── config.py                       # System configurations, scoring weights, paths
 │   ├── database.py                     # SQLAlchemy database initializer
-│   ├── generate_samples.py             # Script to generate demo PDF & DOCX resumes
 │   ├── requirements.txt                # Python backend dependencies
 │   ├── data/
-│   │   ├── jobs.csv                    # Dataset containing 52 realistic tech job roles
+│   │   ├── jobs.csv                    # Dataset containing tech job roles & descriptions
 │   │   └── skills_taxonomy.json        # 100+ categorised technical and soft skills
 │   ├── models/
 │   │   ├── __init__.py
@@ -96,11 +95,10 @@ ai-resume-screening-job-recommendation-system/
 │   │   └── recommendation_engine.py    # Multi-job dataset ranking & rationales
 │   ├── routes/
 │   │   ├── __init__.py
-│   │   ├── resume_routes.py            # /api/resume/* endpoints (upload, demo, parse)
-│   │   ├── job_routes.py               # /api/jobs/* endpoints (listing, details, match)
+│   │   ├── resume_routes.py            # /api/resume/* endpoints (upload, parse)
+│   │   ├── job_routes.py               # /api/jobs/* endpoints (filters, listing, match)
 │   │   ├── recommendation_routes.py    # /api/recommendations endpoint
 │   │   └── history_routes.py           # /api/history/* endpoints
-│   ├── sample_resumes/                 # Generated PDF & DOCX test files
 │   └── uploads/                        # User uploaded resume storage
 │
 ├── frontend/

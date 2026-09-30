@@ -37,7 +37,7 @@ export const Footer = ({ setActivePage }) => {
               className="text-blue-600 dark:text-blue-400 hover:underline font-semibold flex items-center gap-1"
             >
               <BookOpen className="w-3.5 h-3.5" />
-              <span>Project Documentation & Viva</span>
+              <span>Project Architecture & Docs</span>
             </button>
           </div>
         </div>

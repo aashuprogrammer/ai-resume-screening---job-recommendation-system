@@ -20,9 +20,9 @@ class SkillExtractor:
         
         # Fallback minimal taxonomy
         return {
-            "programming_languages": ["Python", "Java", "C++", "C", "SQL", "JavaScript", "TypeScript", "HTML", "CSS"],
-            "frameworks_and_libraries": ["Flask", "Django", "FastAPI", "React", "Node.js", "Pandas", "NumPy", "Scikit-learn"],
-            "databases": ["MySQL", "PostgreSQL", "MongoDB", "SQLite", "Redis"],
+            "programming_languages": ["Python", "Java", "C++", "C", "C#", "JavaScript", "TypeScript", "Go", "Rust", "PHP", "Ruby", "Swift", "Kotlin", "Scala", "R"],
+            "frameworks_and_libraries": ["Flask", "Django", "FastAPI", "React", "Node.js", "Pandas", "NumPy", "Scikit-learn", "HTML", "CSS"],
+            "databases": ["SQL", "MySQL", "PostgreSQL", "MongoDB", "SQLite", "Redis"],
             "cloud_and_devops": ["AWS", "Docker", "Kubernetes", "Git", "GitHub", "CI/CD", "Linux"],
             "tools_and_platforms": ["Postman", "VS Code", "Power BI", "Tableau", "Excel"],
             "concepts_and_domains": ["Machine Learning", "Data Analysis", "REST API", "Deep Learning", "NLP"],

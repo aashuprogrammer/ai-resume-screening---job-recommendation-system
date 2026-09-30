@@ -125,37 +125,7 @@ export const AboutProject = ({ setActivePage }) => {
         </div>
       </div>
 
-      {/* 4. Viva Voce Q&A Cheat Sheet */}
-      <div className="p-7 sm:p-8 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-950/30 dark:to-indigo-950/30 rounded-3xl border border-blue-200/80 dark:border-blue-900/60 space-y-4">
-        <h2 className="text-xl font-bold text-blue-900 dark:text-blue-200 flex items-center gap-2">
-          <BookOpen className="w-5 h-5 text-blue-600" />
-          <span>4. Quick Viva Voce Questions & Answers</span>
-        </h2>
-
-        <div className="space-y-3 text-xs text-slate-700 dark:text-slate-300">
-          <div className="p-3.5 bg-white/80 dark:bg-slate-900/80 rounded-2xl border border-blue-100 dark:border-slate-800 space-y-1">
-            <strong className="text-blue-800 dark:text-blue-300 block">Q1: How does the system extract structured skills?</strong>
-            <p>Using a hierarchical JSON taxonomy and regular expressions with word boundary tokenization to match technical terms across 7 taxonomies.</p>
-          </div>
-
-          <div className="p-3.5 bg-white/80 dark:bg-slate-900/80 rounded-2xl border border-blue-100 dark:border-slate-800 space-y-1">
-            <strong className="text-blue-800 dark:text-blue-300 block">Q2: Why Cosine Similarity over Euclidean distance?</strong>
-            <p>Euclidean distance increases with document length (a 2-page resume would score poorly against a short job post). Cosine similarity measures angular orientation, normalizing for text length.</p>
-          </div>
-
-          <div className="p-3.5 bg-white/80 dark:bg-slate-900/80 rounded-2xl border border-blue-100 dark:border-slate-800 space-y-1">
-            <strong className="text-blue-800 dark:text-blue-300 block">Q3: How are missing skills detected?</strong>
-            <p>The system extracts normalized skill tokens from the job description and performs set difference against candidate resume proficiencies: Missing = (Job Required Skills) - (Candidate Skills).</p>
-          </div>
-
-          <div className="p-3.5 bg-white/80 dark:bg-slate-900/80 rounded-2xl border border-blue-100 dark:border-slate-800 space-y-1">
-            <strong className="text-blue-800 dark:text-blue-300 block">Q4: Is the AI running completely offline?</strong>
-            <p>Yes. All parsing, TF-IDF vectorization, Cosine Similarity, and scoring algorithms run 100% locally on Python without paid external APIs or OpenAI dependencies.</p>
-          </div>
-        </div>
-      </div>
-
-      {/* 5. Quick Actions */}
+      {/* 4. Quick Actions */}
       <div className="p-8 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm text-center space-y-4">
         <h2 className="text-lg font-bold text-slate-900 dark:text-white">
           Experience The Complete AI Workflow Now

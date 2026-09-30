@@ -1,26 +1,27 @@
 {
   "programming_languages": [
     "Python", "Java", "C++", "C", "C#", "JavaScript", "TypeScript", "Go", "Golang", 
-    "Rust", "PHP", "Ruby", "Swift", "Kotlin", "Scala", "R", "Dart", "MATLAB", 
-    "HTML", "HTML5", "CSS", "CSS3", "Sass", "SCSS", "SQL", "PL/SQL", "Shell", "Bash", "PowerShell"
+    "Rust", "PHP", "Ruby", "Swift", "Kotlin", "Scala", "R", "Dart", "MATLAB", "Perl", "Julia"
   ],
   "frameworks_and_libraries": [
     "React", "React.js", "React Native", "Angular", "Vue.js", "Next.js", "Nuxt.js", "Svelte",
     "Node.js", "Express.js", "Express", "Flask", "Django", "FastAPI", "Spring Boot", "Spring",
     ".NET", "ASP.NET", "Ruby on Rails", "Laravel", "NestJS",
-    "Tailwind CSS", "Bootstrap", "Material UI", "Chakra UI", "Redux", "Redux Toolkit", "Zustand", "GraphQL",
+    "HTML", "HTML5", "CSS", "CSS3", "Tailwind CSS", "Bootstrap", "Material UI", "Chakra UI", "Sass", "SCSS",
+    "Redux", "Redux Toolkit", "Zustand", "GraphQL",
     "Pandas", "NumPy", "Scikit-learn", "TensorFlow", "Keras", "PyTorch", "OpenCV", "NLTK", "spaCy",
     "Hugging Face", "Transformers", "LangChain", "LlamaIndex", "SciPy", "Matplotlib", "Seaborn", "Plotly",
     "PySpark", "Hadoop", "Kafka", "Celery"
   ],
   "databases": [
-    "MySQL", "PostgreSQL", "MongoDB", "SQLite", "Redis", "Oracle", "Microsoft SQL Server",
-    "Cassandra", "DynamoDB", "Firebase", "Firestore", "Elasticsearch", "Neo4j", "Supabase", "MariaDB"
+    "SQL", "MySQL", "PostgreSQL", "MongoDB", "SQLite", "Redis", "Oracle", "Microsoft SQL Server",
+    "Cassandra", "DynamoDB", "Firebase", "Firestore", "Elasticsearch", "Neo4j", "Supabase", "MariaDB", "PL/SQL"
   ],
   "cloud_and_devops": [
     "AWS", "Amazon Web Services", "Azure", "Microsoft Azure", "Google Cloud", "GCP",
     "Docker", "Kubernetes", "K8s", "Jenkins", "GitLab CI", "GitHub Actions", "CI/CD",
-    "Terraform", "Ansible", "Linux", "Ubuntu", "Nginx", "Apache", "Helm", "Prometheus", "Grafana"
+    "Terraform", "Ansible", "Linux", "Ubuntu", "Nginx", "Apache", "Helm", "Prometheus", "Grafana",
+    "Shell", "Bash", "PowerShell"
   ],
   "tools_and_platforms": [
     "Git", "GitHub", "GitLab", "Bitbucket", "Postman", "Swagger", "Jira", "Confluence", "Trello",
